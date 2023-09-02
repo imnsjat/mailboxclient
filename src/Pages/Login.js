@@ -50,11 +50,10 @@ const Login = () => {
           })
         );
         if (loginAccount) {
-        //   navigate('/welcome');
+          navigate('/welcome');
         console.log('navigate to home')
         } else {
-            console.log('navigate')
-        //   navigate('/verifyemail');
+          navigate('/');
         }
       } else {
         const data = await res.json();
