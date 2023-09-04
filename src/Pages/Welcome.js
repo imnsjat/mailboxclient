@@ -1,8 +1,13 @@
+import ComposeMail from "../Components.js/ComposeMail";
+import Header from "../Components.js/Header";
 
 
 const Welcome = ()=>{
     return(
-        <h1>Welcome to mmail box client</h1>
+        <>
+        <Header/>
+        <ComposeMail/>
+        </>
     );
 };
 
